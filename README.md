@@ -1,4 +1,4 @@
-# Wellnest Live — StudioPlus‑style Landing Page (Vanilla HTML/CSS/JS)
+# Wellnest Live — (Vanilla HTML/CSS/JS)
 
 A clean, modern, and fully responsive single‑page landing site inspired by StudioPlus’ layout (hero → classes → instructors → community → teams → testimonials → FAQ → footer). Built with **only three files**: `index.html`, `style.css`, `script.js` — no frameworks, no build step.
 
