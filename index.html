@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wellnest Live — Feel better with live classes</title>
+  <meta name="description" content="Join live classes across fitness, yoga, meditation and more. Feel better with a supportive community and great instructors." />
+  <meta property="og:title" content="Wellnest Live" />
+  <meta property="og:description" content="Feel better with live classes and a supportive community." />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="preload" href="style.css" as="style" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Skip link -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="brand" aria-label="Wellnest Live home">
+        <svg aria-hidden="true" class="brand-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+        <span class="brand-text">Wellnest <b>Live</b></span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Toggle menu">
+        <span class="nav-bars" aria-hidden="true"></span>
+      </button>
+
+      <nav id="nav" class="nav" aria-label="Primary">
+        <ul>
+          <li><a href="#classes">Classes</a></li>
+          <li><a href="#instructors">Instructors</a></li>
+          <li><a href="#community">Community</a></li>
+          <li><a href="#work">For Teams</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a class="btn btn-secondary" href="#faq">Learn more</a>
+          <a class="btn" href="#try">Start free</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="section hero" id="home" data-reveal>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Feel better with <span class="accent">live classes</span>.</h1>
+          <p>Get motivated with a live community, meet great instructors, and build healthy habits—one session at a time.</p>
+          <div class="actions" id="try">
+            <a class="btn" href="#classes">Try 1-week free</a>
+            <a class="btn btn-ghost" href="#instructors">Meet instructors</a>
+          </div>
+          <ul class="badges">
+            <li>Live, not pre-recorded</li>
+            <li>Supportive community</li>
+            <li>Habit-building tracks</li>
+          </ul>
+        </div>
+        <div class="hero-visual" role="img" aria-label="Abstract gradient visual"></div>
+      </div>
+    </section>
+
+    <!-- CLASSES -->
+    <section class="section" id="classes" data-reveal>
+      <div class="container">
+        <header class="section-head">
+          <h2>Find your next live class</h2>
+          <p>Choose any upcoming session and hop in. Simple.</p>
+        </header>
+
+        <div class="filters" role="toolbar" aria-label="Class categories">
+          <button class="chip is-active" data-filter="all">All</button>
+          <button class="chip" data-filter="Fitness">Fitness</button>
+          <button class="chip" data-filter="Yoga">Yoga</button>
+          <button class="chip" data-filter="Meditation">Meditation</button>
+          <button class="chip" data-filter="Mindfulness">Mindfulness</button>
+          <button class="chip" data-filter="Self Help & Coaching">Self Help &amp; Coaching</button>
+          <button class="chip" data-filter="Hobby Club">Hobby Club</button>
+        </div>
+
+        <div class="cards" id="class-cards" aria-live="polite"></div>
+
+        <div class="center">
+          <a class="btn btn-ghost" href="#instructors">See instructors</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- INSTRUCTORS -->
+    <section class="section alt" id="instructors" data-reveal>
+      <div class="container">
+        <header class="section-head">
+          <h2>Meet our instructors</h2>
+          <p>Experienced, kind, and here to help you feel better.</p>
+        </header>
+
+        <div class="grid-3" id="instructor-grid" aria-live="polite">
+          <!-- Injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- COMMUNITY -->
+    <section class="section" id="community" data-reveal>
+      <div class="container two-col">
+        <div>
+          <h2>Feel the human touch in every session</h2>
+          <p>Forget passive watching. Ask questions, get real-time feedback, and grow with others who share your goals.</p>
+          <ul class="checklist">
+            <li>Live Q&amp;A in classes</li>
+            <li>Topic-based tracks</li>
+            <li>Progress you can feel</li>
+          </ul>
+          <a class="btn" href="#try">Start for free</a>
+        </div>
+        <div class="stat-card">
+          <div class="stats">
+            <div><strong id="stat-companies">40+</strong><span>Companies</span></div>
+            <div><strong>75%</strong><span>Monthly usage</span></div>
+            <div><strong>100k+</strong><span>Employees</span></div>
+            <div><strong>99%</strong><span>Renewal rate</span></div>
+          </div>
+          <p class="stat-note">Teams choose Wellnest Live for happier, healthier people.</p>
+          <a class="btn btn-ghost" href="#work">Learn about Teams</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOR TEAMS -->
+    <section class="section alt" id="work" data-reveal>
+      <div class="container">
+        <header class="section-head">
+          <h2>Wellnest Live @ Work</h2>
+          <p>Bring live wellbeing to your company with tailored programs and analytics.</p>
+        </header>
+        <div class="cta-banner">
+          <p><strong>HR / People teams:</strong> we can curate tracks (e.g., Focus, Burnout Care, Getting Active) and provide monthly engagement stats.</p>
+          <a class="btn" href="#try">Talk to us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section" id="testimonials" data-reveal>
+      <div class="container">
+        <header class="section-head">
+          <h2>What people say</h2>
+          <p>Real stories from real members.</p>
+        </header>
+
+        <div class="slider" role="region" aria-label="Testimonials">
+          <button class="slider-btn prev" aria-label="Previous">‹</button>
+          <div class="slides" id="slides" tabindex="0" aria-live="polite">
+            <!-- Injected by JS -->
+          </div>
+          <button class="slider-btn next" aria-label="Next">›</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section alt" id="faq" data-reveal>
+      <div class="container">
+        <header class="section-head">
+          <h2>FAQ</h2>
+          <p>Short answers to common questions.</p>
+        </header>
+
+        <div class="faq" id="faq-list">
+          <details>
+            <summary>Are classes live or recorded?</summary>
+            <p>Live. Instructors interact, answer your questions, and adjust on the fly.</p>
+          </details>
+          <details>
+            <summary>Do I need equipment?</summary>
+            <p>Most classes need none; some fitness sessions may suggest simple home gear.</p>
+          </details>
+          <details>
+            <summary>Can I cancel during the free week?</summary>
+            <p>Yes. You can cancel anytime during your trial.</p>
+          </details>
+          <details>
+            <summary>Is there a mobile app?</summary>
+            <p>Mobile and desktop friendly website; native apps can be added later.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="foot-brand">
+        <a href="#" class="brand">
+          <svg aria-hidden="true" class="brand-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+          <span class="brand-text">Wellnest <b>Live</b></span>
+        </a>
+        <p class="muted">Feeling good is personal, yet best walked with a community.</p>
+      </div>
+
+      <nav class="foot-links" aria-label="Footer">
+        <div>
+          <h3>Popular</h3>
+          <ul>
+            <li><a href="#classes">Mindfulness</a></li>
+            <li><a href="#classes">Yoga</a></li>
+            <li><a href="#classes">Fitness</a></li>
+            <li><a href="#classes">Meditation</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Pages</h3>
+          <ul>
+            <li><a href="#classes">Live Classes</a></li>
+            <li><a href="#instructors">Instructors</a></li>
+            <li><a href="#work">For Teams</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#!" aria-disabled="true">User Agreement</a></li>
+            <li><a href="#!" aria-disabled="true">Privacy</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <small>© <span id="year"></span> Wellnest Live. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <!-- Cookie notice -->
+  <div class="cookie" id="cookie" role="dialog" aria-live="polite" aria-modal="false" aria-label="Cookie notice">
+    <p>We use cookies to enhance your experience. </p>
+    <div class="cookie-actions">
+      <button class="btn btn-ghost" data-cookie="reject">Reject</button>
+      <button class="btn" data-cookie="accept">Accept all</button>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
